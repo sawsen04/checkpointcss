@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0 0 0 50px;
+  background-image: url(../assets/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+nav > ul > li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 40px;
+}
+a {
+  all: unset;
+  font-size: 1.9rem;
+  color: rgb(74, 160, 182);
+}
+a:hover {
+  color: rgb(214, 63, 68);
+  text-decoration: underline;
+  cursor: pointer;
+}
+#About-me,
+#My-Education,
+#Work-Experience,
+#Contact-me,
+#my-contact {
+  font-size: 1.6rem;
+  color: rgb(255, 0, 191);
+}
+/*name,job,place*/
+h2,
+h3 {
+  color: rgb(240, 167, 160);
+  background-color: rgb(100, 44, 169);
+  width: fit-content;
+}
+h1 {
+  color: rgb(165, 42, 104);
+  text-shadow: 2px -5px 5px rgb(191, 0, 255);
+  font-size: 3em;
+}
+/*this is footer*/
+.foot {
+    border: 4px black solid;
+    width: fit-content;
+}
+
+h4 {
+    text-decoration: underline;
+    color: rgb(130, 193, 203);
+}
+/*this is my pic*/
+img {
+  border: 5px gray solid;
+  border-style: groove;
+  border-radius: 50%;
+  -webkit-animation:scale-up-center 1.5s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-center 1.5s cubic-bezier(.39,.575,.565,1.000) both
+}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+
+form {
+  background-color: rgb(249, 154, 225);
+  width: fit-content;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+label {
+  color: rgb(87, 36, 169);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  margin-left: 10px;
+  padding: 15px 10px;
+  outline: none;
+}
+textarea {
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  padding: 15px 10px;
+  outline: none;
+}
